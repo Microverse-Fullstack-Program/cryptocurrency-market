@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import NavBar from './components/Navbar';
-import Home from './components/Coinslist';
+import Home from './components/Cryptolist';
 import CoinsDetail from './components/CoinsDetail';
 
 function App() {
