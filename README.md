@@ -1,72 +1,264 @@
-Crypto Currency Market
+<a name="readme-top"></a>
 
-# Getting Started with Create React App
+<div align="center">
+    <img src="cryptopng" alt="logo"  height="300" />
+  <br/>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3><b>Cryptocurrency Market </b></h3>
+</div>
 
-## Available Scripts
+<!-- TABLE OF CONTENTS -->
 
-In the project directory, you can run:
+# 📗 Table of Contents<a name="table-contents"></a>
 
-### `npm start`
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- PROJECT DESCRIPTION -->
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# 📖 About <a name="about-project"></a>
 
-### `npm test`
+**Cryptocurrency Market** is a web App that uses a real live data from the Blockchain API. It's a web application for a company that provides informations such as trending coins, ranks, Cryptocurrency Prices by Market Cap, and crypto transaction. The application allow users to get full information related to the crypto.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Building this application will allow to learn how to use React and Redux in the context of a real application and get hand exprience on front-end development.
 
-### `npm run build`
+## 🛠 Built With <a name="built-with"></a> 
+> - [ReactJS](https://react.dev)
+> - [Redux](https://react-redux.js.org)
+> - [React-Boostrap](https://react-bootstrap.github.io/)
+> - [Jest Test]()
+> - [React Testing Library](https://testing-library.com/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Tech Stack <a name="tech-stack"></a>
+> - JavaScript ES6 Module
+> - ReactJS
+> - Redux
+> - babel-Webpack
+> - Jest Test
+> - React Testing Library
+> - HTML&CSS and JavaScript
+> - VS Editor
+> - GitHub and Gitflow
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Database <a name="data-base"></a>
+- API dependdencies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="#">NA</a></li>
+  </ul>
+</details>
 
-### `npm run eject`
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="#">N/A</a></li>
+  </ul>
+</details>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="#">N/A</a></li>
+  </ul>
+</details>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!-- Features -->
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Key Feature <a name="key-features"></a>
+ > - API enabled - fetch external API
+ > - Coin search
+ > - Coin details
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<p align="right">(<a href="#table-contents">back to top</a>)</p>
 
-## Learn More
+<!-- LIVE DEMO -->
+## 🚀 Live Demo <a name="live-demo"></a> 
+ 
+ - [Space Traveler Hub](https://cryptocurrency-d34b.onrender.com/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<!-- [Space Traveler's Hub]() -->
+<p align="right">(<a href="#table-contents">back to top</a>)</p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<!-- GETTING STARTED -->
 
-### Code Splitting
+## 💻 Getting Started <a name="getting-started"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+To get the content of this project locally you need to run the following commands in your terminal.
 
-### Analyzing the Bundle Size
+### `Prerequisites`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+In order to run this project you need to install the following packages/modules
+> - IDE (code editor) like: VScode, Sublime, etc
+> - [Git](https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/)
+> - [npm](https://www.npmjs.com/)
+> - [node.js](https://nodejs.org/en)
+> - [React-dom](https://legacy.reactjs.org/docs/react-dom-client.html)
+> - [React-redux](https://react-redux.js.org/)
+> - [eslinter](https://eslint.org/)
 
-### Making a Progressive Web App
+### `Setup`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+> 1. Install git if not already installed
+>
+> 2. Use VScode: open terminal in VScode
+>
+> 3. Download the **Zip** file or clone the repo with:
+> ```bash
+> git clone https://github.com/Microverse-Fullstack-Program/cryptocurrency-market
+> ```
+> 4. To access cloned directory, run and navigate to the directory where you cloned the repo:
+> ```bash
+> cd space-traveler
+> ```
 
-### Advanced Configuration
+### `Install Depedancy and Run app`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+To install linters and other project's dependencies run:
 
-### Deployment
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Usage
 
-### `npm run build` fails to minify
+To run the project, execute the following command:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**`npm start`**
+
+> Runs the app in the development mode.\
+> Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+>
+> The page will reload when you make changes.\
+> You may also see any lint errors in the console.
+
+**`npm run build`**
+
+> Builds the app for production to the `build` folder.\
+> It correctly bundles React in production mode and optimizes the build for the best performance.
+> 
+> The build is minified and the filenames include the hashes.\
+> Your app is ready to be deployed!
+>
+> See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+#### Getting Started with Create React App
+> - This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+**`Run Test for Linters`**
+
+> For tracking linter errors locally you need to follow these steps:
+> 
+> 1. For tracking linter errors in HTML files run:
+> ```bash 
+> npx hint .
+> ```
+> 
+> 2. For tracking linter errors in CSS or SASS files run:
+> 
+> ```bash
+> npx stylelint "\*_/_.{css,scss}"
+> ```
+>
+> 3. For tracking linter errors in JavaScript files run:
+> 
+> ```bash
+> npx eslint .
+> ```
+
+**`Test Command`**
+
+> For unit testing of the app run:
+> 
+> ```JS
+> npm test
+> ```
+
+**`Test Screenshoot`**
+![WhatsApp Image 2023-04-21 at 08 48 57](https://user-images.githubusercontent.com/73167960/233574251-196c1a67-b879-4fcf-bd38-3903b0e1e94f.jpg)
+
+
+<!-- ### Deployment -->
+
+<!-- [Space Traveler's Hub]() -->
+
+<p align="right">(<a href="#table-contents">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors: <a name="authors"></a>
+
+The collaborators of this project are.
+
+👤 **Author 1: Chere Lemma** 
+- GitHub: [Chere Lemma](https://github.com/cherelemma)
+- Twitter: [Chere Lemma](https://twitter.com/Chere21271613)
+
+<p align="right">(<a href="#table-contents">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> - Enhance the responsivness 
+> - Implement sorting coins
+
+<p align="right">(<a href="#table-contents">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+[Kindly raise issue here](https://github.com/Microverse-Fullstack-Program/cryptocurrency-market/issues)
+
+<p align="right">(<a href="#table-contents">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project, kindly follow me on GitHub 😊
+
+<p align="right">(<a href="#table-contents">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank [Microverseinc](https://github.com/microverseinc) for. 
+
+> * [Readme-template](https://github.com/microverseinc/readme-template)
+> * [Linter for React & Redux](https://github.com/microverseinc/linters-config)
+
+Much appreciation goes to Space X for the availability of the API to practice.
+
+> * [CoinGecko](https://www.coingecko.com/en/api)
+
+<p align="right">(<a href="#table-contents">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#table-contents">back to top</a>)</p>
