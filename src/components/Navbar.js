@@ -14,10 +14,10 @@ const NavBar = () => {
             </Link>
           </span>
         ) : <img className="logo" src={logo} alt="crypto logo" />}
-        <span>YayCriptoMarket</span>
+        <span>Crypto</span>
       </div>
       <div className="header-center">
-        <h5 data-testid="title">Crypto Market</h5>
+        <h5 data-testid="title">Cryptocurrency Market</h5>
       </div>
       <div className="header-right">
         <span>
