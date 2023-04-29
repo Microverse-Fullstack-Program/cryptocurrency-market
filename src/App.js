@@ -1,5 +1,8 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import {} from 'reactstrap';
+import 'remixicon/fonts/remixicon.css';
 import NavBar from './components/Navbar';
 import Home from './components/Cryptolist';
 import CoinsDetail from './components/CoinsDetail';
