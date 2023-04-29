@@ -36,6 +36,8 @@
 
 Building this application will allow to learn how to use React and Redux in the context of a real application and get hand exprience on front-end development.
 
+Have a look at the [video description](https://www.loom.com/share/4382602a347a4f309bbef9f9ed1deb6f) of the project.
+
 ## 🛠 Built With <a name="built-with"></a> 
 > - [ReactJS](https://react.dev)
 > - [Redux](https://react-redux.js.org)
