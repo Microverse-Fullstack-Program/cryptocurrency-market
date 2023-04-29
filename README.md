@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-    <img src="cryptopng" alt="logo"  height="300" />
+    <img src="crypto.png" alt="logo"  height="300" />
   <br/>
 
 <h3><b>Cryptocurrency Market </b></h3>
