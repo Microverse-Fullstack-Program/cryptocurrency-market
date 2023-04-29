@@ -1,17 +1,43 @@
 import { useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
+import Table from 'react-bootstrap/Table';
 
 const Cryptodetails = () => {
   const { id } = useParams();
   const { cryptoCurrency } = useSelector((state) => state.crypto);
-  const coinDetail = cryptoCurrency.filter((coin) => coin.id === id);
-
+  const coin = cryptoCurrency.filter((coin) => coin.id === id);
+  const coinDetail = coin[0];
   return (
-    <div>
-      <h6>{coinDetail[0].name}</h6>
-      <h5>{coinDetail[0].symbol}</h5>
-      <span>{coinDetail[0].current_price}</span>
-    </div>
+    <>
+      <div className="coin-wraper">
+        <div className="coin-detail">
+          <img src={coinDetail.image} alt={coinDetail.name} />
+          <h1>
+            {coinDetail.name}
+            {' '}
+            Detail
+          </h1>
+        </div>
+        <Table striped bordered>
+          <thead>
+            <tr>
+              <th>Attribute</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            {Object.keys(coinDetail).map((detail) => (
+              <tr key={detail}>
+                <td>
+                  { detail }
+                </td>
+                <td>{ coinDetail[detail] }</td>
+              </tr>
+            ))}
+          </tbody>
+        </Table>
+      </div>
+    </>
   );
 };
 

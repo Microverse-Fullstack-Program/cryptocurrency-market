@@ -6,20 +6,21 @@ const NavBar = () => {
 
   return (
     <header className="header">
-      <div className="header-left">
+      <div className="navbar-left">
         {location.pathname !== '/' ? (
           <span>
-            <Link to="/">
+            <Link to="/" className="left-arrow">
               <i className="ri-arrow-left-s-line" />
             </Link>
           </span>
         ) : <img className="logo" src={logo} alt="crypto logo" />}
+
         <span>Crypto</span>
       </div>
-      <div className="header-center">
-        <h5 data-testid="title">Cryptocurrency Market</h5>
+      <div className="navbar-center">
+        <h5 data-testid="title">Crypto Market</h5>
       </div>
-      <div className="header-right">
+      <div className="navbar-right">
         <span>
           <i className="ri-mic-line" />
         </span>
