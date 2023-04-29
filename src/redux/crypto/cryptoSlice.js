@@ -17,7 +17,7 @@ export const fetchCrypto = createAsyncThunk('crypto/FETCH_CRYPTOCURRENCIES', asy
 const initialState = {
   cryptoCurrency: [],
   isLoading: false,
-  error: '',
+  error: false,
 };
 
 const cryptoSlice = createSlice({
@@ -59,11 +59,11 @@ const cryptoSlice = createSlice({
       .addCase(fetchCrypto.pending, (state) => ({
         ...state,
         isLoading: true,
-        error: '',
+        error: false,
       }))
-      .addCase(fetchCrypto.rejected, (state, action) => ({
+      .addCase(fetchCrypto.rejected, (state) => ({
         ...state,
-        error: action.payload.error,
+        error: true,
         isLoading: false,
       }));
   },
