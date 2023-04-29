@@ -254,7 +254,7 @@ I would like to thank [Microverseinc](https://github.com/microverseinc) for.
 Much appreciation goes to **CoinGecko** for the availability of the API to practice and **Nelson Sakwa** the author of the original design, as required by the  [Creative Commons License](https://creativecommons.org/licenses/) respectively.
 
 > * [CoinGecko](https://www.coingecko.com/en/api)
-> * [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) the [author of the original design]
+> * [Nelson Sakwa](https://www.behance.net/sakwadesignstudio)
 
 
 <p align="right">(<a href="#table-contents">back to top</a>)</p>
