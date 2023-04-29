@@ -1,0 +1,280 @@
+
+.header {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  background: #4369b2;
+  color: #fff;
+  padding: 1.2rem 0.5rem;
+  align-items: center;
+  align-content: center;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 10;
+  top: 0%;
+}
+
+.navbar-left {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.2rem;
+  align-items: center;
+}
+
+.navbar-left .logo {
+  width: 25px;
+  height: 25px;
+}
+
+.left-arrow {
+  color: #fff;
+  text-decoration: none;
+  font-size: xx-large;
+}
+
+.left-arrow:hover {
+  color: aliceblue;
+  text-decoration: underline;
+}
+
+.navbar-left span {
+  font-size: 18px;
+}
+
+.navbar-right span {
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.navbar-center {
+  padding-top: 10px;
+}
+
+.navbar-center h5 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+
+.navbar-right {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.coins-wraper,
+.coin-wrapper {
+  width: 100%;
+  margin: auto;
+  box-sizing: border-box;
+  border: 1px solid rgb(0, 204, 255);
+}
+
+.coins-wraper {
+  height: auto;
+  background: #708bbd;
+}
+
+.coin-wraper {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  background: #5a83d1;
+}
+
+.loading,
+.error {
+  font-weight: bold;
+  color: #fff;
+  padding-left: 10px;
+  margin-top: 25px;
+}
+
+.loading {
+  font-size: xx-large;
+}
+
+.error {
+  font-size: large;
+}
+
+.coingridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.25rem;
+  box-sizing: border-box;
+  overflow: hidden;
+  background: #6f93d8;
+  width: 100%;
+  margin: auto;
+}
+
+.singleCoin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #456db6;
+  color: #fff;
+  padding: 15px 0.85rem;
+  text-decoration: none;
+}
+
+.singleCoin span a {
+  font-size: 18px;
+}
+
+.singleCoin:hover {
+  transform: scale(0.9);
+  transition: 0.35s;
+  border: 5px solid greenyellow;
+}
+
+.singleCoin img,
+.coin-detail img {
+  width: 8rem;
+  height: auto;
+}
+
+.coinTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--font-family);
+}
+
+.coinTitle h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none !important;
+}
+
+.coinTitle small {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.details-arrow {
+  align-self: flex-end;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.coin-detail {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 2% 0;
+  background-color: #305aa8;
+  width: auto;
+}
+
+.coin-detail h1 {
+  text-align: center;
+}
+
+.coin-title-container {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 0.5rem;
+  background: #4369b2;
+  margin-bottom: 0%;
+  border-bottom: 1px solid #325ba7;
+  border-top: 1px solid #305aa8;
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.form {
+  border: 1px solid #fff;
+  border-radius: 1rem;
+  padding: 0.15rem 0;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form input {
+  border: none;
+  outline: none;
+  border-radius: 1rem;
+  color: #fff;
+  padding-left: 0.5rem;
+  margin-left: 0%;
+  background: #4369b2;
+  height: 100%;
+}
+
+.form button {
+  outline: none;
+  border: none;
+  background: transparent;
+  margin-right: 0.3rem;
+  border-radius: 50%;
+}
+
+.form button i {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.form input::placeholder {
+  color: #fff;
+  padding-left: 0.5rem;
+}
+
+.show-case-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background: #305aa8;
+  width: 100%;
+  margin: auto;
+  min-height: 8rem;
+  color: #fff;
+}
+
+.show-case-section .showcaseimg {
+  width: 100%;
+  height: 100%;
+  background: transparent !important;
+  opacity: calc(100% - 70%);
+}
+
+.show-case-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 0.3rem;
+}
+
+.show-case-title h6 {
+  text-align: left;
+  font-size: 16px;
+}
+
+@media (max-width: 400px) {
+  .form {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+  }
+
+  .form input {
+    padding-left: 0.3rem;
+  }
+
+  .coin-title-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .coins-title {
+    display: none;
+  }
+
+  .form input::placeholder {
+    font-size: 20px;
+  }
+}
