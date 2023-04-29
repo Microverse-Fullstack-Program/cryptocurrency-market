@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app should render text 1`] = `
+<header
+  class="header"
+>
+  <div
+    class="navbar-left"
+  >
+    <img
+      alt="crypto logo"
+      class="logo"
+      src="crypto-logo.jpeg"
+    />
+    <span>
+      Crypto
+    </span>
+  </div>
+  <div
+    class="navbar-center"
+  >
+    <h5
+      data-testid="title"
+    >
+      Crypto Market
+    </h5>
+  </div>
+  <div
+    class="navbar-right"
+  >
+    <span>
+      <i
+        class="ri-mic-line"
+      />
+    </span>
+    <span>
+      <i
+        class="ri-settings-5-fill"
+      />
+    </span>
+  </div>
+</header>
+`;
