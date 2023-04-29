@@ -3,22 +3,26 @@ import { NavLink } from 'react-router-dom';
 import { BsArrowRightCircle } from 'react-icons/bs';
 
 const CryptoCoins = ({ coin }) => (
-  <NavLink to={`/coin/${coin.id}`} className="coin">
+  <NavLink to={`/coinDetail/${coin.id}`} className="coin">
     <BsArrowRightCircle className="details-arrow" />
     <img src={coin.image} alt={coin.name} />
 
-    <h3>{coin.name}</h3>
-    <span>
-      $
-      {coin.current_price}
-    </span>
+    <h3>
+      {coin.name}
+      <span> (</span>
+      {coin.symbol}
+      <span>)</span>
+    </h3>
+
+    <small>{`${parseFloat(coin.current_price || 0).toFixed(5)}$`}</small>
   </NavLink>
 );
 
-CryptoCoin.propTypes = {
+CryptoCoins.propTypes = {
   coin: PropTypes.shape({
     id: PropTypes.string,
     name: PropTypes.string,
+    symbol: PropTypes.string,
     current_price: PropTypes.number,
     image: PropTypes.string,
   }).isRequired,
