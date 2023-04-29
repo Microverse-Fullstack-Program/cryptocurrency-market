@@ -251,9 +251,11 @@ I would like to thank [Microverseinc](https://github.com/microverseinc) for.
 > * [Readme-template](https://github.com/microverseinc/readme-template)
 > * [Linter for React & Redux](https://github.com/microverseinc/linters-config)
 
-Much appreciation goes to Space X for the availability of the API to practice.
+Much appreciation goes to **CoinGecko** and **Nelson Sakwa** for the availability of the API to practice and the author of the original design, as required by the  [Creative Commons License](https://creativecommons.org/licenses/) respectively.
 
 > * [CoinGecko](https://www.coingecko.com/en/api)
+> * [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) the [author of the original design]
+
 
 <p align="right">(<a href="#table-contents">back to top</a>)</p>
 
