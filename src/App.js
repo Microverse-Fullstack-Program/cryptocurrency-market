@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import NavBar from './components/Navbar';
 import Home from './components/Cryptolist';
-import CryptoDetail from './components/Cryptodetails';
+import CoinsDetail from './components/CoinsDetail';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="home" element={<Home />} />
-        <Route path="coinDetail/:id" element={<CryptoDetail />} />
+        <Route path="coinDetail/:id" element={<CoinsDetail />} />
       </Routes>
     </BrowserRouter>
   );
