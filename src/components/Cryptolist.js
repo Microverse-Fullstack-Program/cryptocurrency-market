@@ -41,7 +41,7 @@ const Cryptolist = () => {
           </span>
         </div>
       </div>
-      <div className="coins-wraper">
+      <div className="coins-wraper" data-testid="coins-page">
         {error && <p className="error">Error fetching API...</p>}
         <div className="coin-title-container">
           <h5 className="coins-title" data-testid="heading">Coins By Name</h5>
