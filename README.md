@@ -90,7 +90,7 @@ Building this application will allow to learn how to use React and Redux in the 
 <!-- LIVE DEMO -->
 ## 🚀 Live Demo <a name="live-demo"></a> 
  
- - [Space Traveler Hub](https://cryptocurrency-d34b.onrender.com/)
+ - [Live Demo](https://cryptocurrency-d34b.onrender.com/)
 
 <!-- [Space Traveler's Hub]() -->
 <p align="right">(<a href="#table-contents">back to top</a>)</p>
@@ -192,8 +192,8 @@ To run the project, execute the following command:
 > ```
 
 **`Test Screenshoot`**
-![WhatsApp Image 2023-04-21 at 08 48 57](https://user-images.githubusercontent.com/73167960/233574251-196c1a67-b879-4fcf-bd38-3903b0e1e94f.jpg)
 
+![image](https://user-images.githubusercontent.com/73167960/235324299-af398388-9b60-446f-8bb9-2cba9b775d46.png)
 
 <!-- ### Deployment -->
 
